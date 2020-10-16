@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa JS</title>
+
+    <link href="assets/css/bootstrap.min.css?v=4.3.1" rel="stylesheet">
+    <link href="assets/css/all.min.css?v=5.15.0" rel="stylesheet">
+    <link href="assets/css/style.css?v=1" rel="stylesheet">
+
+</head>
+<body>
+
+    <section id="calculadora" class="py-1 px-1">
+        <div class="container h-100">
+            <div class="row justify-content-center h-100 vertical-center">
+                <div class="col-12 px-0 mx-0 monitor">
+                    <div id="monitor"></div>
+                    <div id="semiigual"></div>
+                </div>
+
+                <div class="col-6 mx-0 px-0 text-left border-bottom mb-2 py-2 apaga">
+                    <p class="icone" onclick=""><i class="fas fa-history"></i></p>
+                </div>
+                <div class="col-6 mx-0 px-0 text-right border-bottom mb-2 py-2 apaga">
+                    <p class="icone" onclick="apagarUltimo()"><i class="fas fa-arrow-alt-circle-left"></i></p>
+                </div>
+
+                <div class="col-3 mx-0 px-0">
+                    <p class="reset" onclick="reset();">C</p>
+                </div>
+                <div class="col-3 mx-0 px-0">
+                    <p class="simbolo" onclick="botao('(');">(</p>
+                </div>
+                <div class="col-3 mx-0 px-0">
+                    <p class="simbolo" onclick="botao(')');">)</p>
+                </div>
+                <div class="col-3 mx-0 px-0">
+                    <p class="simbolo" onclick="botao('/');">/</p>
+                </div>
+ 
+                <div class="col-3 mx-0 px-0">
+                    <p class="number" onclick="botao(7);">7</p>
+                </div>
+                <div class="col-3 mx-0 px-0">
+                    <p class="number" onclick="botao(8);">8</p>
+                </div>
+                <div class="col-3 mx-0 px-0">
+                    <p class="number" onclick="botao(9);">9</p>
+                </div>
+                <div class="col-3 mx-0 px-0">
+                    <p class="simbolo" onclick="botao('x');">x</p>
+                </div>
+
+                <div class="col-3 mx-0 px-0">
+                    <p class="number" onclick="botao(4);">4</p>
+                </div>
+                <div class="col-3 mx-0 px-0">
+                    <p class="number" onclick="botao(5);">5</p>
+                </div>
+                <div class="col-3 mx-0 px-0">
+                    <p class="number" onclick="botao(6);">6</p>
+                </div>
+                <div class="col-3 mx-0 px-0">
+                    <p class="simbolo" onclick="botao('-');">-</p>
+                </div>
+
+                <div class="col-3 mx-0 px-0">
+                    <p class="number" onclick="botao(1);">1</p>
+                </div>
+                <div class="col-3 mx-0 px-0">
+                    <p class="number" onclick="botao(2);">2</p>
+                </div>
+                <div class="col-3 mx-0 px-0">
+                    <p class="number" onclick="botao(3);">3</p>
+                </div>
+                <div class="col-3 mx-0 px-0">
+                    <p class="simbolo" onclick="botao('+');">+</p>
+                </div>
+
+                <div class="col-3 mx-0 px-0">
+                    <p class="number" onclick="botao('00');">00</p>
+                </div>
+                <div class="col-3 mx-0 px-0">
+                    <p class="number" onclick="botao(0);">0</p>
+                </div>
+                <div class="col-3 mx-0 px-0">
+                    <p class="simbolo" onclick="botao(',');">,</p>
+                </div>
+                <div class="col-3 mx-0 px-0">
+                    <p class="igual" onclick="igual();">=</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script>
+    </script>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
